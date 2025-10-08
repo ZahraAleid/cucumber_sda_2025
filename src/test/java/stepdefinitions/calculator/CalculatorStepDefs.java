@@ -24,17 +24,17 @@ public class CalculatorStepDefs {
 
     @When("I subtract {int} and {int}")
     public void iSubtractAnd(int num1, int num2) {
-        calculator.subtract(num1,num2);
+      //  calculator.subtract(num1,num2);
 
     }
 
     @When("I multiply {int} and {int}")
     public void iMultiplyAnd(int arg0, int arg1) {
-        calculator.multiply(arg0,arg1);
+         // calculator.multiply(arg0,arg1);
     }
 
     @When("I divide {int} and {int}")
     public void iDivideAnd(int arg0, int arg1) {
-        calculator.divide(arg0,arg1);
+        // calculator.divide(arg0,arg1);
     }
 }

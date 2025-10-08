@@ -1,6 +1,5 @@
 package runners;
 
-import io.cucumber.java.an.Cuan;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -18,8 +17,7 @@ import org.junit.runner.RunWith;
         monochrome = false,
         features = "src/test/resources/features",
         glue = {"stepdefinitions","utilities"},
-        tags = "@sigInSauceDemo",
         dryRun = false
 )
-public class Runner {
+public class RegressionParalleRunner {
 }
